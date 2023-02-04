@@ -172,7 +172,6 @@ header .svg {
 .news .list{
   display: flex;
   gap: 24px;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
