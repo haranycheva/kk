@@ -934,7 +934,7 @@ footer{
 
 .modal-title {
   margin-bottom: 120px;
-  padding-left: 38px;
+  margin-left: 38px;
 }
 
 .modal-title-form {
@@ -1049,11 +1049,19 @@ footer{
   transform: translateY(-50%);
 }
 
+.shadow{
+  width: 100px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(49.99% 49.99% at 49.99% 49.98%, #636982 0%, #767C91 5.24%, #A0A3B3 18.07%, #C2C5CE 31.19%, #DDDEE4 44.46%, #F0F1F3 57.96%, #FBFBFC 71.81%, #FFFFFF 86.56%);
+}
+
 .social-networks {
   margin-top: 25px;
   display: flex;
   justify-content: center;
-  gap: 41px;
 }
 
 .link-network {
