@@ -934,15 +934,12 @@ footer{
 
 .modal-title {
   margin-bottom: 120px;
-  font-size: 48px;
-  line-height: 1.5;
-  font-weight: 600;
   padding-left: 38px;
 }
 
 .modal-title-form {
   font-size: 28px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-align: center;
   margin-bottom: 21px;
 }
@@ -1018,6 +1015,66 @@ footer{
   color: #FFFFFF;
 }
 
+.sign-title {
+  margin-top: 25px;
+  font-size: 22px;
+  line-height: 27px;
+  margin-left: 89px;
+}
+
+.sign-div {
+  position: relative;
+}
+
+.sign-title::before {
+  content: '';
+  height: 2px;
+  width: 42px;
+  background-color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 22px;
+  transform: translateY(-50%);
+}
+
+
+.sign-title::after {
+  content: '';
+  height: 2px;
+  width: 42px;
+  background-color: #000000;
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%);
+}
+
+.social-networks {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+}
+
+.link-network {
+  display: inline-flex;
+  width: 53px;
+  height: 52px;
+  background: linear-gradient(90deg, #B27F2A -20.3%, #B7862E -8.63%, #C49939 8.13%, #DAB84C 27.87%, #F4DD62 47.19%, #F4E38B 84.2%, #F4DD62 113.6%, #B27F2A 182.18%);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.network-svg {
+  width: 12px;
+  height: 22px;
+}
+
+.network-svg2 {
+  width: 17px;
+  height: 17px;
+}
 
 
 
