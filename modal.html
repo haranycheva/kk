@@ -8,9 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <button type="button" class="modal-open">open</button>
-    <div class="back-modal">
+    <button type="button" class="modal-open" data-modal-open>open</button>
+    <div class="back-modal is-hidden" data-modal>
         <div class="modal">
+            <button type="button" class="modal-close" data-modal-close >X</button>
             <img src="./images/exotic.png" alt="logo" class="modal-title" width="236px" height="90px">
             <p class="modal-title-form">Create An Account</p>
             <form>
@@ -43,17 +44,18 @@
                         <svg class="network-svg">
                             <use href="./images/svg/symbol-defs.svg#icon-ef"></use>
                         </svg>
-                    </a href="">
+                    </a>
                 </div>
                 <div class="shadow">
                     <a class="link-network" href="">
                         <svg class="network-svg2">
                             <use href="./images/svg/symbol-defs.svg#icon-ge"></use>
                         </svg>
-                    </a href="">
+                    </a>
                 </div >
             </div>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
