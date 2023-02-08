@@ -909,7 +909,7 @@ footer{
   position: relative;
 }
 
-.list-in .item:not(.no-line)::before{
+.list-in .item::before{
   content: '';
   display: block;
   position: absolute;
@@ -919,6 +919,10 @@ footer{
   width: 15px;
   height: 3px;
   background-color: var(--accent-color);
+}
+
+.no-line {
+  margin-bottom: 25px;
 }
 
 /* modal */
