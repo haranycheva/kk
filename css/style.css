@@ -504,6 +504,10 @@ ul.list-svg-btn {
   gap: 15px;
 }
 
+.coaches  ul.list-svg-btn {
+  right: 23px;
+}
+
 button.button-svg {
   display: block;
   position: relative;
@@ -518,8 +522,9 @@ button.swiper-button-next:after, button.swiper-button-prev:after {
   display: none;
 }
 
-button.swiper-button-next, .swiper-rtl button.swiper-button-prev {
-  left: 0;
+button.swiper-button-next, button.swiper-button-prev {
+  left: 0px;
+  right: 0;
 }
 
 .svg-btn {
@@ -642,11 +647,9 @@ button.swiper-button-next, .swiper-rtl button.swiper-button-prev {
   width: 690px;
 }
 
-.trainer-list.swiper-wrapper>li#li-slayd.swiper-slide.item {
+.trainer-list.swiper-wrapper>li.swiper-slide.item {
   width: 196px;
 }
-
-
 
 .coaches{
   background-color: #ffffff;
