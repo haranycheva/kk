@@ -252,7 +252,7 @@ header .svg {
 }
 
 .news .item:hover .blue {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 .news .item:hover {
