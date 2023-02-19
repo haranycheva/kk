@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -13,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
     <link rel="stylesheet" href="./css/style.css" />
@@ -201,8 +201,8 @@
             </li>
           </ul>
           <div class="swiper">
-            <ul class="trainer-list swiper-wrapper" >
-              <li class="item swiper-slide">
+            <ul class="trainer-list swiper-wrapper">
+              <li class="item swiper-slide" width="196px">
                 <div class="img"><img src="./images/coach1.jpg" alt="coach" width="164px " height="238px" /></div>
                 <h4>
                   Pulvinar <br />
@@ -210,7 +210,7 @@
                 </h4>
                 <p>Arcu elit massa amet turpis vel consequat pellentesque sit.</p>
               </li>
-              <li class="item swiper-slide">
+              <li class="item swiper-slide" width="196px">
                 <div class="img"><img src="./images/coach2.jpg" alt="coach" width="164px " height="238px" /></div>
                 <h4>
                   Pretium <br />
@@ -221,7 +221,7 @@
                   lorem morbi quis.
                 </p>
               </li>
-              <li class="item swiper-slide">
+              <li class="item swiper-slide" width="196px">
                 <div class="img"><img src="./images/coach3.jpg" alt="coach" width="164px " height="238px" /></div>
                 <h4>
                   Aliquet <br />
@@ -229,7 +229,7 @@
                 </h4>
                 <p>Id sapien sed nibh fermentum massa posuere ipsum. Diam in.</p>
               </li>
-              <li class="item swiper-slide">
+              <li class="item swiper-slide" width="196px">
                 <div class="img"><img src="./images/coach4.jpg" alt="coach" width="164px " height="238px" /></div>
                 <h4>
                   Blandit <br />
@@ -240,7 +240,7 @@
                   morbi sit auctor vel diam eros.
                 </p>
               </li>
-              <li class="item swiper-slide">
+              <li class="item swiper-slide" width="196px">
                 <div class="img"><img src="./images/coach5.jpg" alt="coach" width="164px " height="238px" /></div>
                 <h4>
                   Lorem <br />
@@ -353,6 +353,7 @@
           </ul>
       </div>
     </footer>
+    <div class="back-modal is-hidden" data-modal>
       <div class="modal">
           <button type="button" class="modal-close" data-modal-close >X</button>
           <img src="./images/exotic.png" alt="logo" class="modal-title" width="236px" height="90px">
@@ -398,6 +399,7 @@
               </div >
           </div>
       </div>
+  </div>
       <div class="back-modal is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close >X</button>
@@ -445,6 +447,53 @@
             </div>
         </div>
     </div>    
+    <div class="back-modal is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close >X</button>
+            <img src="./images/exotic.png" alt="logo" class="modal-title" width="236px" height="90px">
+            <p class="modal-title-form">Create An Account</p>
+            <form>
+                <div class="form-input-wrap">
+                    <input class="modal-form-input" placeholder="Full name" type="text">
+                    <svg class="svg-form">
+                        <use href="./images/svg/symbol-defs.svg#icon-chel"></use>
+                    </svg>
+                </div >
+                <div class="form-input-wrap">
+                    <input class="modal-form-input" placeholder="Email" type="email">
+                    <svg class="svg-form">
+                        <use href="./images/svg/symbol-defs.svg#icon-letter"></use>
+                    </svg>
+                </div >
+                <div class="form-input-wrap form-input-wrap1">
+                    <input class="modal-form-input" placeholder="Password" type="password">
+                    <svg class="svg-form">
+                        <use href="./images/svg/symbol-defs.svg#icon-lock"></use>
+                    </svg>
+                </div >
+                <button class="btn-form-modal" type="submit">Sign up</button>
+            </form>
+            <div class="sign-div">
+                <p class="sign-title">Or Sign Up With</p>
+            </div >
+            <div class="social-networks">
+                <div class="shadow">
+                    <a class="link-network" href="">
+                        <svg class="network-svg">
+                            <use href="./images/svg/symbol-defs.svg#icon-ef"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="shadow">
+                    <a class="link-network" href="">
+                        <svg class="network-svg2">
+                            <use href="./images/svg/symbol-defs.svg#icon-ge"></use>
+                        </svg>
+                    </a>
+                </div >
+            </div>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
     <script src="./js/skrol.js"></script>
 
