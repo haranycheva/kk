@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -12,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -114,7 +116,7 @@
         </div>
       </section>
       <section class="foto">
-        <div class="container">
+        <div class="container ">
           <ul class="foto-list">
             <li class="item">
               <div class="fototext1">
@@ -184,79 +186,81 @@
           <h2 class="trainer-title">Тренерський склад</h2>
           <ul class="list-svg-btn">
             <li class="item">
-              <button class="button-svg" type="button">
+              <button class="button-svg swiper-button-prev" type="button">
                 <svg class="svg-btn">
                   <use href="./images/svg/symbol-defs.svg#icon-row-left"></use>
                 </svg>
               </button>
             </li>
             <li class="item">
-              <button class="button-svg" type="button">
+              <button class="button-svg  swiper-button-next" type="button">
                 <svg class="svg-btn">
                   <use href="./images/svg/symbol-defs.svg#icon-row-right"></use>
                 </svg>
               </button>
             </li>
           </ul>
-          <ul class="trainer-list">
-            <li class="item">
-              <div class="img"><img src="./images/coach1.jpg" alt="coach" width="164px " height="238px" /></div>
-              <h4>
-                Pulvinar <br />
-                aliquam
-              </h4>
-              <p>Arcu elit massa amet turpis vel consequat pellentesque sit.</p>
-            </li>
-            <li class="item">
-              <div class="img"><img src="./images/coach2.jpg" alt="coach" width="164px " height="238px" /></div>
-              <h4>
-                Pretium <br />
-                odio
-              </h4>
-              <p>
-                Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo
-                lorem morbi quis.
-              </p>
-            </li>
-            <li class="item">
-              <div class="img"><img src="./images/coach3.jpg" alt="coach" width="164px " height="238px" /></div>
-              <h4>
-                Aliquet <br />
-                consectetur
-              </h4>
-              <p>Id sapien sed nibh fermentum massa posuere ipsum. Diam in.</p>
-            </li>
-            <li class="item">
-              <div class="img"><img src="./images/coach4.jpg" alt="coach" width="164px " height="238px" /></div>
-              <h4>
-                Blandit <br />
-                augue
-              </h4>
-              <p>
-                Scelerisque accumsan pretium justo, vitae elit. Dolor semper
-                morbi sit auctor vel diam eros.
-              </p>
-            </li>
-            <li class="item">
-              <div class="img"><img src="./images/coach5.jpg" alt="coach" width="164px " height="238px" /></div>
-              <h4>
-                Lorem <br />
-                lacus
-              </h4>
-              <p>
-                Adipiscing amet, viverra dignissim egestas. Sed nibh egestas
-                venenatis faucibus.
-              </p>
-            </li>
-            <li class="item">
-              <div class="img"><img src="./images/coach6.jpg" alt="coach" width="164px " height="238px" /></div>
-              <h4>
-                Sed <br />
-                erat
-              </h4>
-              <p>Quis ullamcorper pretium lacus risus tellus dolor etiam.</p>
-            </li>
-          </ul>
+          <div class="swiper">
+            <ul class="trainer-list swiper-wrapper" >
+              <li class="item swiper-slide">
+                <div class="img"><img src="./images/coach1.jpg" alt="coach" width="164px " height="238px" /></div>
+                <h4>
+                  Pulvinar <br />
+                  aliquam
+                </h4>
+                <p>Arcu elit massa amet turpis vel consequat pellentesque sit.</p>
+              </li>
+              <li class="item swiper-slide">
+                <div class="img"><img src="./images/coach2.jpg" alt="coach" width="164px " height="238px" /></div>
+                <h4>
+                  Pretium <br />
+                  odio
+                </h4>
+                <p>
+                  Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo
+                  lorem morbi quis.
+                </p>
+              </li>
+              <li class="item swiper-slide">
+                <div class="img"><img src="./images/coach3.jpg" alt="coach" width="164px " height="238px" /></div>
+                <h4>
+                  Aliquet <br />
+                  consectetur
+                </h4>
+                <p>Id sapien sed nibh fermentum massa posuere ipsum. Diam in.</p>
+              </li>
+              <li class="item swiper-slide">
+                <div class="img"><img src="./images/coach4.jpg" alt="coach" width="164px " height="238px" /></div>
+                <h4>
+                  Blandit <br />
+                  augue
+                </h4>
+                <p>
+                  Scelerisque accumsan pretium justo, vitae elit. Dolor semper
+                  morbi sit auctor vel diam eros.
+                </p>
+              </li>
+              <li class="item swiper-slide">
+                <div class="img"><img src="./images/coach5.jpg" alt="coach" width="164px " height="238px" /></div>
+                <h4>
+                  Lorem <br />
+                  lacus
+                </h4>
+                <p>
+                  Adipiscing amet, viverra dignissim egestas. Sed nibh egestas
+                  venenatis faucibus.
+                </p>
+              </li>
+              <li class="item swiper-slide">
+                <div class="img"><img src="./images/coach6.jpg" alt="coach" width="164px " height="238px" /></div>
+                <h4>
+                  Sed <br />
+                  erat
+                </h4>
+                <p>Quis ullamcorper pretium lacus risus tellus dolor etiam.</p>
+              </li>
+            </ul>
+          </div >
         </div>
       </setion>
       <section class="cost">
@@ -349,7 +353,6 @@
           </ul>
       </div>
     </footer>
-    <div class="back-modal is-hidden" data-modal>
       <div class="modal">
           <button type="button" class="modal-close" data-modal-close >X</button>
           <img src="./images/exotic.png" alt="logo" class="modal-title" width="236px" height="90px">
@@ -395,7 +398,6 @@
               </div >
           </div>
       </div>
-  </div>
       <div class="back-modal is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close >X</button>
@@ -443,53 +445,8 @@
             </div>
         </div>
     </div>    
-    <div class="back-modal is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="modal-close" data-modal-close >X</button>
-            <img src="./images/exotic.png" alt="logo" class="modal-title" width="236px" height="90px">
-            <p class="modal-title-form">Create An Account</p>
-            <form>
-                <div class="form-input-wrap">
-                    <input class="modal-form-input" placeholder="Full name" type="text">
-                    <svg class="svg-form">
-                        <use href="./images/svg/symbol-defs.svg#icon-chel"></use>
-                    </svg>
-                </div >
-                <div class="form-input-wrap">
-                    <input class="modal-form-input" placeholder="Email" type="email">
-                    <svg class="svg-form">
-                        <use href="./images/svg/symbol-defs.svg#icon-letter"></use>
-                    </svg>
-                </div >
-                <div class="form-input-wrap form-input-wrap1">
-                    <input class="modal-form-input" placeholder="Password" type="password">
-                    <svg class="svg-form">
-                        <use href="./images/svg/symbol-defs.svg#icon-lock"></use>
-                    </svg>
-                </div >
-                <button class="btn-form-modal" type="submit">Sign up</button>
-            </form>
-            <div class="sign-div">
-                <p class="sign-title">Or Sign Up With</p>
-            </div >
-            <div class="social-networks">
-                <div class="shadow">
-                    <a class="link-network" href="">
-                        <svg class="network-svg">
-                            <use href="./images/svg/symbol-defs.svg#icon-ef"></use>
-                        </svg>
-                    </a>
-                </div>
-                <div class="shadow">
-                    <a class="link-network" href="">
-                        <svg class="network-svg2">
-                            <use href="./images/svg/symbol-defs.svg#icon-ge"></use>
-                        </svg>
-                    </a>
-                </div >
-            </div>
-        </div>
-    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/skrol.js"></script>
+
   </body>
 </html>

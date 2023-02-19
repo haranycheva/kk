@@ -496,7 +496,7 @@ header .svg {
   margin-bottom: 75px;
 }
 
-.list-svg-btn {
+ul.list-svg-btn {
   display: flex;
   position: absolute;
   right: 0;
@@ -504,7 +504,7 @@ header .svg {
   gap: 15px;
 }
 
-.button-svg {
+button.button-svg {
   display: block;
   position: relative;
   width: 45px;
@@ -513,6 +513,13 @@ header .svg {
   padding: 0;
 
   background-color: var(--accent-color);
+}
+button.swiper-button-next:after, button.swiper-button-prev:after {
+  display: none;
+}
+
+button.swiper-button-next, .swiper-rtl button.swiper-button-prev {
+  left: 0;
 }
 
 .svg-btn {
@@ -630,6 +637,16 @@ header .svg {
   position: relative;
 }
 /* coaches */ 
+
+.swiper {
+  width: 690px;
+}
+
+.trainer-list.swiper-wrapper>li.swiper-slide.item {
+  width: 196px;
+}
+
+
 
 .coaches{
   background-color: #ffffff;
@@ -1127,6 +1144,8 @@ footer{
   width: 17px;
   height: 17px;
 }
+
+
 
 
 
