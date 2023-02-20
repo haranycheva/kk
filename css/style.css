@@ -523,7 +523,7 @@ button.swiper-button-next:after, button.swiper-button-prev:after {
 }
 
 button.swiper-button-next, button.swiper-button-prev {
-  left: 0px;
+  left: 0;
   right: 0;
 }
 
@@ -644,11 +644,11 @@ button.swiper-button-next, button.swiper-button-prev {
 /* coaches */ 
 
 .swiper {
-  width: 690px;
+  width: 648px;
 }
 
-.trainer-list.swiper-wrapper>li.swiper-slide.item {
-  width: 196px;
+li.swiper-slide {
+  width: 196px !important;
 }
 
 .coaches{
