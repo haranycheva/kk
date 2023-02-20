@@ -644,11 +644,7 @@ button.swiper-button-next, button.swiper-button-prev {
 /* coaches */ 
 
 .swiper {
-  width: 648px;
-}
-
-li.swiper-slide {
-  width: 196px !important;
+  width: 636px;
 }
 
 .coaches{
@@ -661,7 +657,6 @@ li.swiper-slide {
 
 .trainer-list {
   display: flex;
-  gap: 24px;
 }
 
 .trainer-list h4 {
